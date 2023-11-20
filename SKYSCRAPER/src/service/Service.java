@@ -1,7 +1,6 @@
 /**
  * This class represents a Service for constructing buildings based on floor sizes.
  * The constructBuilding method takes an array of floor sizes as input and performs the construction work.
- * It ensures robustness, reusability, and follows standard styling conventions.
  */
 package service;
 

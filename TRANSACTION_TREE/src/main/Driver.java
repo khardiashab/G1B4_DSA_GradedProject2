@@ -35,14 +35,14 @@ public class Driver {
         }
 
         // Print the inorder traversal of the BST
-        System.out.println("Inorder traversal of the BST:");
+        // System.out.println("Inorder traversal of the BST:");
         bst.inorder();
 
         // Convert the BST to a right-skewed BST
         bst.setRoot(converter.convertBstToRightSkewedBst(bst.getRootNode()));
 
         // Display the right-skewed BST
-        System.out.println("Right-skewed BST:");
+        // System.out.println("Right-skewed BST:");
         bst.display();
 
         // Close the Scanner object
